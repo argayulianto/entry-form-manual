@@ -1,0 +1,136 @@
+
+===> Intorduction
+
+1. Angular support both Unit testing and E2E testing.
+
+2. Angular has native support of jasmine, karma and protractor framework
+
+3. We can also use any other framework of our choice like mocha etc.
+
+4. We write our unit tests in jasmine framework
+
+5. We run our unit tests using Karma framework
+
+6. For E2E :
+	- We use Protractor Framework
+	- The protractor framework is written on top of webdriver
+
+7. Angular CLI has built in commands that can help us do unit testing as well as E2E testing
+
+8. Understand the difference between unit test and E2E test
+
+9. Understand and know about the various framework that we will learn in next chapter
+	- Jasmine
+	- Karma
+	- Protractor
+
+
+===> Angular testing fundamental concepts
+
+1. Two types of testing :
+	- Unit test -> .spec.ts
+	- End to end testing 
+
+2. Whenever we see a file ending with .spec.ts -> it means this is a unit test script
+
+3. Whenever we see file inside the folder e2e folder :
+	- this is the folder where we will see all our end to end test script  
+	- .e2e-spec.ts
+
+4. All of our End to end test script will/should be inside the e2e folder
+
+5. Unit test can be in any folder -> in respective folders 
+	- The best practice is keep our unit test where the code is
+
+6. Angular support :
+	- Jasmine/karma -> Unit tests
+	- Protractor -> End to end tests
+
+7. We will need to configurations for running  our tests
+	- karma config file -> /src/karma.config.ts
+	- protractor config file -> /e2e/protractor.conf.ts
+
+8. We can make configurations change for unit tests and e2e tests
+
+9. We can do a lot of things w.r.t testing
+	- code coverage reports
+	- configuring ports
+	- configuring test -> skip
+	- which one to execute etc.
+
+10. We can test any and all aspects of Angular Application
+	- The purpose is to test "our application" logic NOT to test Angular Framework
+
+11. We can extend our Angular application to work and test with other testing framework, like :
+	- Mocha
+	- Cucumber
+
+12. Coverage 
+	- All the test report and code coverage details are captured in this folder
+
+13. Under the source folder we will find a file called :
+	- main.ts :
+		- it is the starting point of our angular application
+		- AppModule is the default bootstrap module :
+			- this is not bootstrap css framework
+			- here the bootstrap -> which module to load first when our application starts
+		- We can configure whice module to start when our app load
+		- Using platformBrowserDinamic we start and let angular know which module to load
+
+	- test.ts :
+		- Is the file testing the code of main.ts file
+
+14. Some configure our test configs :
+	- Angular.json 
+
+
+==> Run Unit Test Angular
+
+1. To run unit test we use the command -> ng test
+
+2. The application will compile for any error and then will execute the unit tests
+
+3. All our unit test script are written in jasmine framework
+
+4. Karma is test script runner server which is used to execute the tests
+
+5. The default port where it execute is 9876
+
+6. It will open a new tab browser automatically :
+	- support for :
+		- Chrome
+		- Firefox
+		- Safari
+		- IE
+
+5. We can chose and configure which browser we want to work with
+
+6. Green bullet in report mean the test has passed
+
+7. Red color (x) mark means the test has failed
+
+8. I the summary line we will see cont of total test specs, failed, passed and skipped.
+
+9. The configuration file for unit tests is -> /src/karma.conf.js
+
+10. If we want to use firefox, we need to import that library -> hands on
+	- npm install :
+		- it will install the required modules
+		- which is add on package.json file
+		- this is example when want to add firefox : npm i karma-firefox-launcher
+
+11. We can change the default port in karma.conf.js file
+	- Which all browser we want the app run on
+		- in browser array
+
+12. We can also pass params in our cli command it self
+
+13. There are different options we can pass to CLI command params :
+	- command pattern : ng test <params>
+		- ng test --browsers=browser
+		- ng test --code-coverage
+		- ng test --karmaConfig=karmaConfig
+		- ng test --main=main
+		- ng test --configuration=configuration
+		- ng test progress=true|false
+	- the best and good idea is to always have these setting in karma.conf.js file

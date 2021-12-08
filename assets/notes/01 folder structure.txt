@@ -1,0 +1,67 @@
+
+==> Default folder structure of Angular
+
+1. E2E 
+	- the place of end to end test script
+	- protractor framework is used to run end to end tests
+	- app.po.ts -> protractor file which will have "po" file
+	- app.e2e-spec.ts file
+		- e2e -> it tell that this script is end to end functional test script
+		- spec -> whenever spec is added -> that means it is a test script
+
+2. node_modules
+	- this is the folder where all modules and library reside
+	- add/remove modules/package
+
+3. src 
+	- this is the main work area
+	- app
+		- app folder is the place where you will see components, modules, services, directive, pipe, etc.
+		- app.component.ts -> this file is correspondens to component
+		- app.module.ts -> means this is a module
+		- app.service.ts -> means these are service file
+		- app.components.spec.ts -> means these are unit tests file
+	- assets
+		- style
+		- icons
+		- images
+	- environments
+		- here we will configure variable or pipelines for dev, test, stage and production
+
+	-----------------------------------------------------------
+	Booting proses
+	- main.ts 
+		- booting the angular application
+		- this is the first that angular will check to load how to start an Angular application
+		- we need atleast 1 module to be present in our main.ts
+		- by default the module that inside in the main.ts is "AppModule"
+
+		- bootstrapModule is the one which loads and start the application 
+		- yes, we can change the default AppModule with something else
+			- we can write custom module and thenload into bootstrapModule
+
+	- test.ts
+		- the test script for booting process
+		- all the code inside main.ts is tested here in this file
+	-----------------------------------------------------------
+
+
+	- polyfills -> if the user browser is outdated one, polyfills will add ES6 functionality
+		- backward compatible
+	- style.css
+		- global stylesheet
+		- dont make this too heavy
+		- generic/common typography, font, style
+
+4. angular.json
+	- this is the file for all configuration of our angular project
+
+5. karma.conf.js
+	- karma runner for running our unit test script
+	- configure our unit test script
+
+6. tsconfig.json 
+	- build and compilation related to our angular application
+
+7. tslint.json
+	- linting pr coding standards
