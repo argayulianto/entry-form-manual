@@ -1,0 +1,112 @@
+[
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "MUDAN",
+        "no_order": "200700000305",
+        "no_hp_1": "089756420967",
+        "tanggal_order": "08-JUL-2020 20:28:13",
+        "informasi_alamat": "DEPOK NO 123",
+        "nama_dealer": "PT ANTAR PUTRA",
+        "hasil_screening": "-",
+        "status_asssign": "ASSIGN DARI DEALER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "JHON",
+        "no_order": "200700000405",
+        "no_hp_1": "081287652019",
+        "tanggal_order": "08-JUN-2020 16:09:34",
+        "informasi_alamat": "BOGOR NO 321",
+        "nama_dealer": "PT CAHYA ILAHI",
+        "hasil_screening": "-",
+        "status_asssign": "DARI POOLING ORDER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "RAMLAN",
+        "no_order": "200700000605",
+        "no_hp_1": "085709685432",
+        "tanggal_order": "02-MAY-2019 21:16:10",
+        "informasi_alamat": "BEKASI NO 999",
+        "nama_dealer": "PT SELALU ALWAYS",
+        "hasil_screening": "-",
+        "status_asssign": "ASSIGN DARI DEALER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "MAHMUD",
+        "no_order": "200700000909",
+        "no_hp_1": "081290874271",
+        "tanggal_order": "06-APR-2020 22:28:14",
+        "informasi_alamat": "PONDOK RANJI NO 109",
+        "nama_dealer": "PT CITRA ABADI",
+        "hasil_screening": "-",
+        "status_asssign": "DARI POOLING ORDER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "SAMSUL",
+        "no_order": "200700000408",
+        "no_hp_1": "089673450981",
+        "tanggal_order": "15-DEC-2018 05:30:40",
+        "informasi_alamat": "TANGERANG NO 798",
+        "nama_dealer": "PT CINTA DAMAI",
+        "hasil_screening": "-",
+        "status_asssign": "ASSIG DARI DEALER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "SOLIHIN",
+        "no_order": "200700000403",
+        "no_hp_1": "085678091234",
+        "tanggal_order": "01-JAN-2021 16:02:18",
+        "informasi_alamat": "BINTARO NO 545",
+        "nama_dealer": "PT SILAU ABADI",
+        "hasil_screening": "-",
+        "status_asssign": "DARI POOLING ORDER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "AMIN AZHARI",
+        "no_order": "200700000701",
+        "no_hp_1": "081598427642",
+        "tanggal_order": "05-SEP-2019 21:34:13",
+        "informasi_alamat": "CIPUTAT NO 102",
+        "nama_dealer": "PT JAYA MAKMUR",
+        "hasil_screening": "-",
+        "status_asssign": "ASSIGN DARI DEALER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "ILHAM",
+        "no_order": "200700000502",
+        "no_hp_1": "081209649236",
+        "tanggal_order": "07-NOV-2020 01:15:09",
+        "informasi_alamat": "PARUNG NO 603",
+        "nama_dealer": "PT SUPER ANTIK",
+        "hasil_screening": "-",
+        "status_asssign": "DARI POOLING ORDER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "IRWAN NIRWANA",
+        "no_order": "200700000470",
+        "no_hp_1": "085792017492",
+        "tanggal_order": "12-AUG-2019 04:01:10",
+        "informasi_alamat": "KEBON JERUK NO 888",
+        "nama_dealer": "PT CITRA HALUS",
+        "hasil_screening": "-",
+        "status_asssign": "ASSIGN DARI DEALER"
+    },
+    {
+        "source_order": "MUFPORTAL",
+        "nama_sesuai_ktp": "RIKI",
+        "no_order": "200700000430",
+        "no_hp_1": "081209639267",
+        "tanggal_order": "14-FEB-2021 16:30:13",
+        "informasi_alamat": "SERPONG NO 543",
+        "nama_dealer": "PT LIMPAH RUAH",
+        "hasil_screening": "-",
+        "status_asssign": "DARI POOLING ORDER"
+    }
+]
